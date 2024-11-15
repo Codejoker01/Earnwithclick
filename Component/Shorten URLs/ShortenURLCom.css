@@ -1,0 +1,139 @@
+.home-page-m-cont{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/Images/p-main-img-2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+   
+}
+.home-page-child-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-cover-cont{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.594);
+ 
+}
+
+.home-welcome{
+    width: 50%;
+    margin: auto;
+    height: 50vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    
+    text-transform: uppercase;
+   
+}
+.form-welcome-head{
+    font-size: 32px;
+    font-weight: 600;
+}
+/* .form-welcome-head span{
+    font-weight: 600;
+} */
+.form-welcome-head-2{
+    font-size: 60px;
+    font-weight:700;
+}
+
+
+.form-welcome-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-input-cont{
+    width: 60%;
+    
+
+}
+.form-input-cont input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border:  none;
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 9px;
+    font-size: 16px;
+}
+.form-input-cont input::placeholder{
+    font-size: 16px;
+
+}
+.form-submit-button{
+    width: 10%;
+}
+.form-submit-button button{
+    width: 100%;
+    height: 40px;
+    border-radius: 0px 8px 8px 0px;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    background-color: #bfbdbdfc;
+    border: 2px solid #bfbdbdfc ;
+    color: #fff;
+}
+.form-submit-button button:hover{
+    background-color: #333;
+    border: 2px solid #333 ;
+    color: #fff;
+}
+
+
+
+/*responsibe    */
+
+
+@media screen and (max-width:1199px) {
+    .home-page-child-cont{
+        width:959px ;
+        margin: auto; 
+    }
+    .home-welcome{
+        width: 70%;
+    }
+
+     
+}
+@media screen and (max-width:991px) {
+    .home-page-child-cont{
+        width:767px ;
+        
+    }
+    
+   
+     
+    
+}
+@media screen and (max-width:767px) {
+    .home-page-child-cont{
+        width:90%;
+        
+    }
+    .home-welcome{
+        width: 100%;
+    }
+    .form-welcome-head{
+        font-size: 22px;
+         
+    }
+   
+    .form-welcome-head-2{
+        font-size: 40px;
+         
+    }
+    
+}

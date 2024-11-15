@@ -1,0 +1,137 @@
+.join-page-main-cont{
+    width: 100%;
+    height: 290vh;
+    text-align: center;
+    background-color: rgba(176, 224, 230, 0.132);
+    /* margin-top: 130px; */
+     
+}
+
+.join-main-heading{
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 90px;
+    color: #F25A60;
+}
+.join-main-sub-heading{
+    font-size: 54px;
+    font-weight:800;
+    color: #333;
+    margin-bottom: 20px;
+}
+.join-parent-cont{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    /* background-color: darkslategray; */
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.join-child-cont{
+    width: 30%;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow:  0px 3px 3px 2px rgb(230, 227, 227);
+    
+}
+
+.join-child-cont:hover{
+    box-shadow: 0px 0px 6px 4px rgb(198, 202, 202);
+}
+.join-card-main-cont{
+    width: 100%;
+    height: 100%;
+   
+     
+}
+
+.join-img-wrap {
+    
+   width: 100%;
+   height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darksalmon; */
+}
+.join-img-wrap img{
+    color: rgb(7, 24, 19);
+    /* background-color: rgb(228, 241, 237); */
+    width: 100%;
+    height: 80%;
+    background-image: url("../../assets/Icon/join-page-bg-img.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+     
+    /* box-shadow:  ; */
+    /* drop-shadow :0px 1px 8px 1px  #4b3a3a; */
+    
+
+}
+
+.join-head-warp{
+    height: 15%;
+    font-size:22px;
+    text-align: center;
+    font-weight: 800;
+    color: #333;
+    align-content: center;
+}
+
+.join-content-wrap{
+    padding: 25px;
+    font-size: 18px;
+    color: #575757;
+}
+
+/*responsibe    */
+
+
+@media screen and (max-width:1199px) {
+    .join-page-main-cont{
+        height: auto;
+        padding-bottom: 50px;
+        /* background-color: #F25A60; */
+        
+    }
+    .join-parent-cont{
+        width:959px ;
+        margin: auto; 
+        row-gap: 30px;
+       
+    }
+   
+    
+     
+}
+@media screen and (max-width:991px) {
+    .join-parent-cont{
+        width:767px ;
+        
+    }
+    .join-child-cont{
+        height: auto;
+    }
+     
+    
+   
+     
+    
+}
+@media screen and (max-width:767px) {
+    .join-parent-cont{
+        width:90%;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 90px;
+        row-gap: 80px;
+    }
+     
+    
+}
